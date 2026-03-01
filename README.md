@@ -127,3 +127,15 @@ The following machine learning algorithms were trained and evaluated:
 - Streamlit
 
 - Pickle
+
+# Future Enhancements
+
+- Hyperparameter tuning using GridSearchCV
+
+- Advanced feature engineering
+
+- Probability-based winner prediction
+
+- Deployment on Streamlit Cloud or Render
+
+- Adding match analytics dashboard
