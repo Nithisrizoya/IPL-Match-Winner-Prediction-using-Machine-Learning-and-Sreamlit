@@ -1,13 +1,14 @@
 # IPL-Match-Winner-Prediction-using-Machine-Learning-and-Sreamlit
 
-**Project Overview**
+# **Project Overview**
+
 This project focuses on predicting the winner of an Indian Premier League (IPL) match using Machine Learning classification algorithms.
 
 By leveraging historical IPL match data, the model learns patterns based on match conditions such as participating teams, toss winner, toss decision, and venue to predict the likely winning team.
 
 This is a multi-class classification problem, as the target variable (winner) contains multiple team categories.
 
-**Business Objective**
+# **Business Objective**
 
 The goal of this project is to:
 
@@ -19,7 +20,7 @@ The goal of this project is to:
 
 - Deploy the best-performing model using Streamlit
 
-**Dataset Description**
+# **Dataset Description**
 
 - Dataset: IPL Historical Match Dataset
 
@@ -41,25 +42,25 @@ The goal of this project is to:
 
 Other relevant categorical match attributes
 
-**Data Preprocessing & Feature Engineering**
+# **Data Preprocessing & Feature Engineering**
 
 The following preprocessing steps were performed:
 
 - Removed irrelevant columns:
 
-id
+1. id
 
-date
+2. date
 
-player_of_match
+3. player_of_match
 
 Removed rows where winner = Unknown
 
 - Handled categorical variables using:
 
-pd.get_dummies() for feature encoding
+1. pd.get_dummies() for feature encoding
 
-LabelEncoder() for target encoding
+2. LabelEncoder() for target encoding
 
 - Ensured class balance using Stratified Train-Test Split
 
@@ -77,9 +78,9 @@ The following machine learning algorithms were trained and evaluated:
 
 - Random Forest Classifier
 
-XGBoost Classifier (Best Performing Model)
+- XGBoost Classifier (Best Performing Model)
 
-**Evaluation Metric Used:**
+# **Evaluation Metric Used:**
 
 - F1 Macro Score (suitable for multi-class classification)
 
@@ -89,15 +90,15 @@ XGBoost Classifier (Best Performing Model)
 
 **Final Model**
 
-Algorithm: XGBoost Classifier
+- Algorithm: XGBoost Classifier
 
-Handles multi-class classification effectively
+- Handles multi-class classification effectively
 
-Provides strong generalization performance
+- Provides strong generalization performance
 
-Evaluated using cross-validation for stability
+- Evaluated using cross-validation for stability
 
-The trained model was saved using pickle and integrated into a Streamlit web application.
+- The trained model was saved using pickle and integrated into a Streamlit web application.
 
 **Streamlit Web Application**
 
