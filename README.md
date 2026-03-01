@@ -54,7 +54,7 @@ The following preprocessing steps were performed:
 
 3. player_of_match
 
-Removed rows where winner = Unknown
+4. Removed rows where winner = Unknown
 
 - Handled categorical variables using:
 
@@ -66,7 +66,7 @@ Removed rows where winner = Unknown
 
 - Applied 5-Fold Cross Validation for reliable model evaluation
 
-**Models Implemented & Compared**
+# **Models Implemented & Compared**
 
 The following machine learning algorithms were trained and evaluated:
 
@@ -88,7 +88,7 @@ The following machine learning algorithms were trained and evaluated:
 
 - XGBoost achieved the best overall performance and was selected as the final model.
 
-**Final Model**
+# **Final Model**
 
 - Algorithm: XGBoost Classifier
 
@@ -100,7 +100,7 @@ The following machine learning algorithms were trained and evaluated:
 
 - The trained model was saved using pickle and integrated into a Streamlit web application.
 
-**Streamlit Web Application**
+# **Streamlit Web Application**
 
 - An interactive web application was developed using Streamlit to allow users to:
 
@@ -112,7 +112,7 @@ The following machine learning algorithms were trained and evaluated:
 
 - Display the predicted team in real time
 
-**Technology Stack**
+# **Technology Stack**
 
 - Python
 
